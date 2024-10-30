@@ -3,7 +3,10 @@ import './main.css';
 import img from '../../Assets/g.jpg'
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { HiOutlineClipboardCheck } from "react-icons/hi";
-
+import img2 from '../../Assets/r.jpg'
+import img3 from '../../Assets/r.jpg'
+import img4 from '../../Assets/r.jpg'
+import img5 from '../../Assets/r.jpg'
 
 
 const Data = [
@@ -16,6 +19,50 @@ const Data = [
        fees: '$700',
        description: 'reatrfasgsgsegsdg' 
     },
+
+    {
+        id:2,
+        imgSrc: img2,
+        destTitle: 'Bora Bora',
+        location: 'New Zealand',
+        grade: 'CULTURAL RELAX',
+        fees: '$700',
+        description: 'reatrfasgsgsegsdg' 
+     },
+
+     {
+        id:3,
+        imgSrc: img3,
+        destTitle: 'Bora Bora',
+        location: 'New Zealand',
+        grade: 'CULTURAL RELAX',
+        fees: '$700',
+        description: 'reatrfasgsgsegsdg' 
+     },
+
+
+     {
+        id:4,
+        imgSrc: img4,
+        destTitle: 'Bora Bora',
+        location: 'New Zealand',
+        grade: 'CULTURAL RELAX',
+        fees: '$700',
+        description: 'reatrfasgsgsegsdg' 
+     },
+
+
+     {
+        id:5,
+        imgSrc: img5,
+        destTitle: 'Bora Bora',
+        location: 'New Zealand',
+        grade: 'CULTURAL RELAX',
+        fees: '$700',
+        description: 'reatrfasgsgsegsdg' 
+     },
+
+     
 
 ]
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useeffect} from "react";
 import './home.css';
 import video from '../../Assets/2.mp4'
 import { GrLocation } from "react-icons/gr";
@@ -8,6 +8,10 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { FaTripadvisor } from "react-icons/fa";
 import { BsListTask } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
+
+import Aos from 'aos'
+import 'aos/dist/aps.css'
+
 const Home = () => {
     return(
         <section className= 'Home'>
